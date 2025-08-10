@@ -29,17 +29,18 @@ const Projects = () => {
       status: "Completed"
     },
     {
-      title: "Web Portfolio Development",
-      description: "Built personal portfolio website and restored the Este2mDreamers community site with modern web technologies and responsive design.",
-      tags: ["React", "Web Development", "Portfolio", "Community"],
+      title: "Este2m Dreamers Website Restoration",
+      description: "I brought the Este2m Dreamers site back online and coded several pages/components from scratch—strictly following the team's instructions and brand/content guidelines. I replaced fragile plugins with clean HTML/CSS/JS, made the layout responsive, and documented quick steps so the team can update content easily.",
+      tags: ["Web Development", "HTML/CSS/JS", "Responsive Design", "Community"],
       icon: <Globe className="w-6 h-6" />,
       features: [
-        "Personal portfolio showcase",
-        "Community site restoration",
-        "Responsive design implementation",
-        "Modern web technologies"
+        "Restored website from offline state",
+        "Hand-coded responsive sections (hero, programs, events, contact)",
+        "Fixed broken links and streamlined navigation",
+        "Set up simple content update workflow with documentation"
       ],
-      status: "Completed"
+      status: "Completed",
+      projectUrl: "https://este2mdreamers.org/"
     }
   ];
 
@@ -99,14 +100,31 @@ const Projects = () => {
               </div>
               
               <div className="flex gap-3">
-                <button className="flex items-center gap-2 text-sm text-primary hover:text-secondary transition-colors">
-                  <ExternalLink className="w-4 h-4" />
-                  View Details
-                </button>
-                <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-                  <Github className="w-4 h-4" />
-                  Source Code
-                </button>
+                {project.title === "Este2m Dreamers Website Restoration" ? (
+                  <a 
+                    href={project.projectUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-primary hover:text-secondary transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    View Details
+                  </a>
+                ) : (
+                  <>
+                    {project.title === "Jarvis - Python Chatbot" && (
+                      <a 
+                        href="https://github.com/Ibrahim-Amin-Bhaila/Basic-Interactive-Chatbot-Jarvis.git" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        <Github className="w-4 h-4" />
+                        Source Code
+                      </a>
+                    )}
+                  </>
+                )}
               </div>
             </div>
           ))}

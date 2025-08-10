@@ -30,21 +30,17 @@ const Hero = () => {
             </a>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">4.0</div>
               <div className="text-sm text-muted-foreground">GPA</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">5+</div>
-              <div className="text-sm text-muted-foreground">Projects</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">3rd</div>
               <div className="text-sm text-muted-foreground">LSS Place</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">2024</div>
+              <div className="text-2xl font-bold text-primary">2028</div>
               <div className="text-sm text-muted-foreground">Graduating</div>
             </div>
           </div>

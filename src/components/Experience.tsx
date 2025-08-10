@@ -40,7 +40,7 @@ const Experience = () => {
       icon: <Award className="w-5 h-5" />,
       description: "Achieved exceptional sales performance while managing academic responsibilities and enhancing customer satisfaction.",
       achievements: [
-        "Achieved $2000 in daily sales through effective customer engagement",
+        "Achieved $1500 in daily sales through effective customer engagement",
         "Enhanced customer satisfaction and drove business growth",
         "Balanced 15 work hours/week with 13 credit hour semester",
         "Demonstrated exceptional time management and reliability"

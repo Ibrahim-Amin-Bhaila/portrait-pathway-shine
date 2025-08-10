@@ -5,8 +5,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "ibrahimamin@tamu.edu",
-      href: "mailto:ibrahimamin@tamu.edu",
+      value: "ibrahimbhaila2006@gmail.com",
+      href: "mailto:ibrahimbhaila2006@gmail.com",
       color: "primary"
     },
     {
@@ -27,7 +27,7 @@ const Contact = () => {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "https://www.linkedin.com/in/ibrahim-bhaila-634245274/",
+      href: "https://www.linkedin.com/in/ibrahim-bhaila",
       color: "primary"
     }
   ];
@@ -123,7 +123,7 @@ const Contact = () => {
               Ready to discuss opportunities or collaborate on innovative projects?
             </p>
             <a 
-              href="mailto:ibrahimamin@tamu.edu" 
+              href="mailto:ibrahimbhaila2006@gmail.com" 
               className="btn-accent"
             >
               Send me an email

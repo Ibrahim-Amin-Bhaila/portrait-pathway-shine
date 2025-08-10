@@ -3,17 +3,6 @@ import { Code, Wrench, Award, Brain } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
-      icon: <Code className="w-5 h-5" />,
-      color: "primary",
-      skills: [
-        { name: "Python", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "HTML/CSS", level: 88 },
-        { name: "React", level: 80 }
-      ]
-    },
-    {
       title: "Tools & Technologies",
       icon: <Wrench className="w-5 h-5" />,
       color: "secondary",
@@ -42,8 +31,7 @@ const Skills = () => {
       skills: [
         { name: "SolidWorks 2024 Essential Training", level: 100 },
         { name: "AWS Cloud Essentials", level: 100 },
-        { name: "OpenEDG Python Professional", level: 100 },
-        { name: "LinkedIn Learning Verified", level: 100 }
+        { name: "OpenEDG Python Professional", level: 100 }
       ]
     }
   ];
